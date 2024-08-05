@@ -1,0 +1,29 @@
+.login-modal {
+    background-color:hsla(210,10%,14%,1);
+    background-image:
+    radial-gradient(at 55% 34%, hsla(244,63%,74%,1) 0px, transparent 50%),
+    radial-gradient(at 92% 76%, hsla(207,65%,72%,1) 0px, transparent 50%),
+    radial-gradient(at 78% 7%, hsla(199,83%,42%,1) 0px, transparent 50%),
+    radial-gradient(at 52% 63%, hsla(257,85%,79%,1) 0px, transparent 50%),
+    radial-gradient(at 45% 6%, hsla(237,72%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(317,100%,48%,1) 0px, transparent 50%),
+    radial-gradient(at 96% 30%, #e97ccc 0px, transparent 50%);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.registration-banner {
+    flex: 1;
+    align-self: flex-end;
+    text-align: right;
+    margin-top: auto;
+}
+
+.login-container {
+    flex: 1;
+}
+
+.login-form {
+    margin-left: 2rem;
+    padding: 2rem;
+}

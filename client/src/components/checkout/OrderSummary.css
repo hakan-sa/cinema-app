@@ -1,0 +1,20 @@
+.order-summary-container {
+    background-color: transparent;
+    color: white;
+    padding-top: 5vh;
+    min-height: 100vh;
+}
+
+.order-summary-header {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.selected-payment-card {
+    box-shadow: 0 0 1rem white;
+    border-radius: 10px;
+    transform: scale(1.10); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}

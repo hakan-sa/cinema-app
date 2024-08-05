@@ -1,0 +1,28 @@
+.rating-box {
+    display: inline-flex;
+    width: auto;
+    border: 1px solid #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+
+}
+.movie-summary-title {
+    max-width: 150%;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+
+}
+.movie-summary {
+    padding-top: 0.2rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h4 {
+    word-wrap: break-word;
+}

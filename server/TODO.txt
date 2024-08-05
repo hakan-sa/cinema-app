@@ -1,0 +1,16 @@
+TODO
+DB and Backend Updates
+    Rewrite controller logic with models for booking
+    Add associations for bookings
+    Admin code
+    Initialize sequelize on startup of app
+
+Get Login Working
+    Check Dave Gray tutorials to see if he's storing user data to populate context every reload
+
+Get Emails Working
+    Send emails out appropriately depending on situation
+
+Get User Settings Working
+    Similar to signup logic
+    Figure out how to populate user settings with current user settings data

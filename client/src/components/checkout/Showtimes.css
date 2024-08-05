@@ -1,0 +1,54 @@
+.showtime-page-container {
+    background-color: transparent;
+    color: white;
+    min-height: 100vh;
+    padding-top: 5vh;
+}
+
+.showtime {
+    cursor: pointer;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #333; /* Dark background for each showtime */
+    color: #fff; /* White text color */
+    border-radius: 5px;
+}
+
+.showtime-header {
+    border-bottom: 2px solid white; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px; 
+    width: 50%; 
+}
+
+.showtimes-not-available {
+    font-size: 5rem;
+    padding-top: 30%;
+}
+
+@keyframes float {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+    25% {
+        transform: translateX(400%) rotate(-45deg); /* Adjust the percentage or pixel value */
+    }
+    50% {
+        transform: translateX(800%) rotate(0deg); /* Adjust the percentage or pixel value */
+    }
+    75% {
+        transform: translateX(1200%) rotate(45deg); /* Adjust the percentage or pixel value */
+    }
+    100% {
+        transform: translateX(1600%) rotate(0deg); /* Adjust the percentage or pixel value */
+    }
+}
+
+.floating-astronaut {
+    position: absolute;
+    width: 10rem; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    top: 50%;
+    left: 0;
+    animation: float 50s linear infinite;
+}

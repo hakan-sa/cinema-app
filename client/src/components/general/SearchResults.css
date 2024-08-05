@@ -1,0 +1,30 @@
+.search-results-container {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding-top: 5vh;
+}
+
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.search-results-header {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.movie-element {
+    width: 200px;
+}
+
+.search-results-container h2,
+.search-results-container .form-label,
+.search-results-container .btn {
+    color: white;
+}

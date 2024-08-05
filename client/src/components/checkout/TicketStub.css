@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.ticket-stub {
+    max-width: 30vw;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 5px 20px 10px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 5vh;
+    max-height: 15vh;
+    font-family: monospace;
+}
+
+.ticket-stub-poster {
+    position: relative;  /* Add this to ensure the positioning context for the pseudo-element */
+    flex: 0 0 45%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ticket-stub-poster::after {
+    content: '';  /* Necessary for a pseudo-element */
+    position: absolute;  /* Position relative to its parent */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 1) 100%);  /* Gradient from transparent to white */
+    pointer-events: none;  /* Allows clicking through this overlay */
+}
+.ticket-stub-img {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ticket-stub-content {
+    background-color: #fff;
+    flex: 1;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ticket-stub-price {
+    background: linear-gradient(to bottom, #0bb8e3 0%, #c528f6 100%);
+    flex: 0 0 50px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    writing-mode: vertical-lr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-stub-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.heading-primary {
+    font-size: 1.3rem;
+    margin-right: auto;
+    font-weight: bold;
+    color: black !important;
+}
+
+.fa-fire {
+    color: salmon;
+}
+
+.ticket-stub-description {
+    font-size: 14px;
+    color: darkgray;
+}
+
+.ticket-stub-details {
+    display: flex;
+    margin: auto;
+}
+
+.ticket-stub-detail {
+    font-size: 1rem;
+    margin-right: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black !important;
+}
+
+.icons i {
+    margin-right: 3px;
+    font-size: 18px;
+}
+
+.icons-red {
+    color: salmon !important;
+}
+.icons-grey {
+    color: grey !important;
+}
+
+.icons-yellow {
+    color: rgb(190, 190, 71) !important;
+}

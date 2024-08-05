@@ -1,0 +1,48 @@
+.seat-selection-container {
+    background-color: transparent;
+    color: white;
+    padding-top: 5vh;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+
+/* Adjusts each seat column to fit 20 across the container width */
+.seat {
+    flex: 0 0 auto;
+    width: 5%; /* Approximation to fit 20 seats into the row */
+    padding: 5px; /* Adjust padding to manage the size of the seats */
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.seat.selected {
+    color: blue; /* Change text color if needed */
+}
+
+.seat.booked {
+    color: white !important;
+    cursor: not-allowed;
+}
+
+.seat-selection-container .seat .material-icons {
+    font-size: 5rem; 
+    color: gray; 
+}
+
+.seat-selection-container .seat.selected .material-icons {
+    color: #007bff;        
+}
+  
+/* Adds a bottom margin to each row except the last for even vertical spacing */
+.seat-row:not(:last-child) {
+    margin-bottom: 2vh;
+}
+  
+.seat-selection-header {
+    border-bottom: 2px solid white; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px; 
+    width: 50%; 
+}

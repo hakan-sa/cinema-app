@@ -1,0 +1,11 @@
+.modal-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.modal-body {
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 100%;
+}

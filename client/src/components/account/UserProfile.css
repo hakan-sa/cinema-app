@@ -1,0 +1,71 @@
+.userprofile-body {
+  background-color: hsla(300, 8%, 7%, 1);
+  background-image: 
+    radial-gradient(at 65% 97%, hsla(195,31%,37%,0.25) 0px, transparent 50%),
+    radial-gradient(at 100% 67%, hsla(181,100%,50%,0.18) 0px, transparent 50%),
+    radial-gradient(at 99% 99%, hsla(302,100%,50%,0.19) 0px, transparent 50%),
+    linear-gradient(335deg, black 23px, transparent 23px),
+    linear-gradient(155deg, black 23px, transparent 23px),
+    linear-gradient(335deg, black 23px, transparent 23px),
+    linear-gradient(155deg, black 23px, transparent 23px);
+  background-size: auto, auto, auto, 58px 58px, 58px 58px, 58px 58px, 58px 58px;
+  background-position: center, center, center, 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+}
+
+.user-profile-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.neon{
+  font-family: 'Monoton', cursive, sans-serif;
+  font-size:5rem;
+  color: #FFD5FF;
+  top: 5rem;
+  left: 3rem;
+  z-index: 0;
+  position: absolute;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
+}
+
+.neon-flicker-slow{
+  animation: neon-flicker 3s linear infinite;
+}
+
+.neon-flicker-fast{
+  animation: neon-flicker 1s linear infinite;
+}
+
+@keyframes neon-flicker {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+		
+    opacity: .99;
+		
+	}
+	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+		opacity: 0.4;
+	}
+}
+
+ /* Glowing green border for valid input */
+ .is-valid {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+/* Glowing red border for invalid input */
+.is-invalid {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');

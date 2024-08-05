@@ -1,0 +1,31 @@
+.ticket-selection-page {
+    background-color: transparent;
+    color: white;
+    padding-top: 5vh;
+    min-height: 100vh;
+
+}
+
+.ticket-selection-container {
+    width: 50vh;
+}
+
+.ticket-input{
+    max-width: 20%;
+}
+
+.ticket-selection-header {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.quantity-input-group {
+    width: 8vh;
+}
+
+.quantity-input {
+    text-align: center;
+    width: 5vh;
+}

@@ -1,0 +1,17 @@
+.payment-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 20rem;
+    margin: 1rem auto;
+    background-color: #f3f3f3;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black;
+}
+  
+.payment-card-row {
+    margin: 0.8rem 0;
+    text-align: center;
+}
+  

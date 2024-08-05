@@ -1,0 +1,10 @@
+.logo-sign {
+    letter-spacing: 2px; 
+    font-family: "Bayshore";
+    font-size: 2rem; 
+    color: #ffffff;
+    position: relative; 
+    left: -8vh;
+    overflow: visible;
+    cursor: pointer;
+}

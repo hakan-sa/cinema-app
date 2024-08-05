@@ -1,0 +1,23 @@
+.admin-search-form-row {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.admin-search-form-movie-card {
+    width: 18rem;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.admin-search-form-movie-img {
+    height: 100%; 
+    object-fit: cover;
+}
+
+.admin-search-form-movie-body {
+    padding: 15px;
+}
+

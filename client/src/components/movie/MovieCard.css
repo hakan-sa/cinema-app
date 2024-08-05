@@ -1,0 +1,44 @@
+.movie-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 26rem;
+    border-top-right-radius: 10%;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: scale(1.15); /* Enlarge card when hovered*/
+    box-shadow: 0 0 8px 2px blue; /* Glow effect */
+}
+
+.card-img-top {
+    transition: transform 1s ease, box-shadow 0.3s ease;
+    width: 100%;
+}
+
+.card-img-top:hover {
+    transform: scale(1.25); /* Zoom into card image when hovered */
+}
+
+.movie-card:hover .card-img-top {
+    filter: brightness(50%); /* Darken image when hovered*/
+}
+
+.hover-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.5s ease; /* Smooth transition for appearing text */
+    text-align: center;
+    width: 100%; /* Ensures text is centered in the card */
+}
+
+.movie-card:hover .hover-title {
+    opacity: 1; /* Title appears on hover */
+}
